@@ -1,20 +1,9 @@
 # Fake News Detection using Machine Learning
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Problem Definition](#problem-definition)
-- [Project Structure](#project-structure)
-- [Datasets](#datasets)
-- [Model Name](#model-name)
-- [Images](#images)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
 
 ## Introduction
 This repository contains a comprehensive project for detecting fake news using machine learning techniques and various natural language processing techniques. The project includes data analysis, model training, and a web application for real-time fake news detection. The machine learning model is designed to classify news articles as either real or fake based on their content.
 
-## Problem Definition
-We aim to develop a machine learning program to identify when a news source may be producing fake news. The model will focus on identifying fake news sources, based on multiple articles originating from a source. Once a source is labeled as a producer of fake news, we can predict with high confidence that any future articles from that source will also be fake news. Focusing on sources widens our article misclassification tolerance, because we will have multiple data points coming from each source.
 
 The intended application of the project is for use in applying visibility weights in social media. Using weights produced by this model, social networks can make stories that are highly likely to be fake news less visible.
 
@@ -67,48 +56,6 @@ This section provides visuals and diagrams used in the project:
 - Confusion Matrix
 ![Confusion Matrix](Images/ConfusionMatrix.jpg)
 
-## Prerequisites
-Before you begin, ensure you have met the following requirements:
-- Python 3.7 or higher
-- Install all dependencies from the requirements.txt file.
-
-## Getting Started
-To get started with this project, follow these steps:
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/abiek12/Fake-News-Detection-using-MachineLearning.git
-   ```
-
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv my_env
-   ```
-
-3. Activate the virtual environment:
-   ```bash
-   # On Windows
-   .\my_env\Scripts\Activate.ps1
-   # On macOS and Linux
-   source my_env/bin/activate
-   ```
-
-4. Install project dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the web application:
-   ```bash
-   python app.py
-   ```
 
 Access the application in your web browser by navigating to `http://localhost:5000`.
 
----
-
-**Author**
-- ABHISHEK P P (https://github.com/abiek12)
-
-- If you have any questions or need further assistance, feel free to contact us at abhishekkanichery@gmail.com
-
----
